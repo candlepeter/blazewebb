@@ -1,0 +1,267 @@
+body {
+
+    background-color: #ada5a58a;
+    
+    }
+    
+    .row {
+    
+    margin: 10px;
+    height: 100px;
+    
+    }
+    
+    .card-title {
+    
+    color: #fff;
+    background-color: #353a41e0;
+    height: 40px;
+    border-radius: 5px;
+    width: auto;
+    
+    }
+    
+    .card-text{
+    
+      font-style: normal;
+      padding: 5px;
+    
+    }
+    
+    .card{
+    
+    text-align: center;
+    background-color:#354a68e0;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    
+    }
+    
+    .cardButton{
+    
+    margin-bottom: 10px;
+    
+    }
+    
+    .background {
+    
+    background: linear-gradient(#000000cb, #000000cb), url(../images/blazewebb-background.jpg) center/cover fixed;
+    min-height: 300px;
+    width: 100%;
+    padding-top: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    }
+    
+    #carouselExampleCaptions{
+    
+      margin-top: 55px;
+    
+    }
+    
+    .carousel-inner .item img{
+    
+    width: 100%;
+    min-height: auto;
+    
+    }
+    
+    h2 {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color:#f5c4d3e0;
+    margin-bottom: 10px;
+    
+    }
+    
+    .carousel-caption p{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    color:#ddaffa;
+    
+    }
+    
+    p {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ddaffa;
+    
+    }
+    
+    #footer{
+    
+    height: 40px;
+    width: auto;
+    background-color: #353a41e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    
+    footer p {
+    
+    color: #bec7d4e0
+    
+    }
+    
+    
+    @media screen and (max-width:350px) {
+
+    .background {
+    
+    background: linear-gradient(#000000cb, #000000cb), url(../images/blazewebb-background.jpg) center/cover fixed;
+    min-height: 920px;
+    width: 100%;
+    padding-top: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    }
+
+    .card-title{
+    
+    height: 80px;
+    
+    }
+    
+    
+    h2 {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    color:#f5c4d3e0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+      }
+    
+    p {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:#ddaffa;
+    
+    }
+    
+    #footer p {
+    
+    font-size: 18px;
+    
+    }
+    
+    .carousel-caption p{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    color:#ddaffa;
+    
+    }
+    
+    div h3 {
+    
+    padding-top: 2px;
+    
+    }
+    
+    div .carousel-caption{
+    
+    margin: 35px 0px 10px 0px;
+    
+    }
+    
+    }
+    
+    @media screen and (min-width: 700px) {
+     
+    
+    .card-title{
+    
+    color: #fff;
+    background-color: #353a41e0;
+    height: 99px;
+    border-radius: 5px;
+    width: auto;
+    margin: auto;
+    
+    }
+
+    #carouselExampleCaptions{
+    
+      margin-top: -45px;
+    
+    }
+    
+    div .carousel-caption{
+    
+    margin-bottom: 60px;
+    
+    }
+    
+    .background {
+    
+    background: linear-gradient(#000000cb, #000000cb), url(../images/blazewebb-background.jpg) center/cover fixed;
+    min-height: 410px;
+    width: 100%;
+    padding-top: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    }
+    }
+    
+    @media screen and (min-width: 1000px) {
+    
+    img {
+        
+        width: auto;
+        height: 539px;
+    
+    }
+
+    #carouselExampleCaptions{
+    
+      margin-top: -95px;
+    
+    }
+    
+    div .carousel-caption{
+    
+    margin-bottom: 100px;
+    
+    }
+    
+    div h3 {
+    
+    padding-top: 15px;
+    
+    }
+    
+    .background {
+    
+    background: linear-gradient(#000000cb, #000000cb), url(../images/blazewebb-background.jpg) center/cover fixed;
+    min-height: 330px;
+    width: 100%;
+    padding-top: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    }
+
+    .card-title{
+    
+    height: 85px;
+    
+    }
+    
+    }
