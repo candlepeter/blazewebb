@@ -1,0 +1,108 @@
+body{
+
+  background-color: #ada5a58a;
+    
+}
+    
+.jumbotron{
+      
+    background: linear-gradient(#000000cb, #000000cb), url(../images/blazewebb-slider1.jpg) center/cover fixed;
+    min-height: 200px;
+    margin-top: 53px;
+    border-bottom: 5px solid #8a1414d0;
+    margin-bottom: 30px;
+    border-radius: none;
+    text-align: left;
+    justify-content: left;
+      
+}
+    
+.container {
+    
+    margin-bottom: 20px;
+    
+}
+    
+.container h2 {
+    
+    background: linear-gradient(#000000cb, #000000cb), url(../images/blazewebb-slider2.jpg) center/cover fixed;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    line-height: 60px;
+    letter-spacing: 30px;
+    border: 3px solid #8a1414d0;
+    border-radius: 10px;
+    
+}
+
+
+    
+.card-text {
+    
+    color:#941178dc;
+    
+}
+
+.card {
+    
+    box-shadow: 4px 4px 7px #000000cb;
+    margin-bottom: 20px;
+    
+}
+    
+h3{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color:#f5c4d3e0;
+    margin-bottom: 10px;
+    
+}
+    
+p{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    color:#ddaffa;
+    
+}
+    
+#footer{
+    
+    height: 40px;
+    width: auto;
+    background-color: #353a41e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+    
+footer p {
+    
+    color: #bec7d4e0
+    
+}
+    
+@media screen and (max-width: 600px) {
+    
+.jumbotron{
+      
+    background: linear-gradient(#000000cb, #000000cb), url(../images/blazewebb-slider1.jpg) center/cover fixed;
+    min-height: 200px;
+    margin-top: 50px;
+    border-bottom: 5px solid #8a1414d0;
+    margin-bottom: 30px;
+    border-radius: none;
+    text-align: center;
+    justify-content: center;
+      
+}
+     
+}
