@@ -17,7 +17,7 @@ body {
     background-color: #353a41e0;
     height: 40px;
     border-radius: 5px;
-    width: auto;
+    width: 100%;
     
     }
     
@@ -191,7 +191,7 @@ body {
     background-color: #353a41e0;
     height: 99px;
     border-radius: 5px;
-    width: auto;
+    width: 100%;
     margin: auto;
     
     }
